@@ -1,0 +1,7 @@
+[
+  {
+    "id": "workshop",
+    "group": "workshop",
+    "prefab": "assets/game/workshop/room.esprefab"
+  }
+]

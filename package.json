@@ -1,0 +1,28 @@
+{
+  "name": "estella-yzforge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "gameTemplate": {
+    "id": "Estella-YZForge",
+    "settings": true,
+    "experience": "workshop",
+    "frameworkVersion": "0.1.0"
+  },
+  "scripts": {
+    "game:new": "node tools/new-game.mjs",
+    "config:generate": "node tools/generate-config.mjs",
+    "check:content": "node tools/check-content.mjs",
+    "check:types": "tsc --noEmit",
+    "test": "tsx --tsconfig tests/tsconfig.json --test tests/*.test.ts",
+    "editor:smoke": "node tools/editor.mjs smoke",
+    "export:web": "node tools/editor.mjs export",
+    "test:web": "node tests/web-smoke.mjs",
+    "check": "npm run check:content && npm run check:types && npm test"
+  },
+  "devDependencies": {
+    "playwright-core": "1.56.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

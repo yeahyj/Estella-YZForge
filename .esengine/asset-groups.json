@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "groups": {
+    "boot": { "folder": "assets/boot", "mode": "local", "alwaysInclude": true },
+    "tables": { "folder": "assets/data", "mode": "local", "alwaysInclude": true },
+    "settings": { "folder": "assets/modules/settings", "mode": "local", "alwaysInclude": true },
+    "workshop": { "folder": "assets/game/workshop", "mode": "subpackage", "alwaysInclude": true }
+  }
+}

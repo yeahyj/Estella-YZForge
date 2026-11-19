@@ -1,0 +1,89 @@
+{
+  "version": "2",
+  "name": "Pause",
+  "rootEntityId": "0",
+  "entities": [
+    {
+      "prefabEntityId": "0", "name": "Pause",
+      "parent": null, "children": ["1"],
+      "components": [
+        {"type":"Transform","data":{}},
+        {"type":"UINode","data":{"position":1,"insetLeft":{"value":0,"unit":1},"insetTop":{"value":0,"unit":1},"width":{"value":100,"unit":1},"height":{"value":100,"unit":1}}},
+        {"type":"UIVisual","data":{"visualType":1,"color":{"r":0.047058823529411764,"g":0.09411764705882353,"b":0.11764705882352941,"a":1}}}
+      ],
+      "visible": true
+    },
+    {
+      "prefabEntityId": "1", "name": "PausePanel",
+      "parent": "0", "children": ["2","3","4","5","6"],
+      "components": [
+        {"type":"Transform","data":{}},
+        {"type":"UINode","data":{"position":1,"insetLeft":{"value":14,"unit":1},"insetTop":{"value":10,"unit":1},"width":{"value":72,"unit":1},"height":{"value":80,"unit":1}}},
+        {"type":"UIVisual","data":{"visualType":1,"color":{"r":0.10196078431372549,"g":0.17254901960784313,"b":0.20784313725490197,"a":1}}}
+      ],
+      "visible": true
+    },
+    {
+      "prefabEntityId": "2", "name": "PauseRule",
+      "parent": "1", "children": [],
+      "components": [
+        {"type":"Transform","data":{}},
+        {"type":"UINode","data":{"position":1,"insetLeft":{"value":0,"unit":1},"insetTop":{"value":0,"unit":1},"width":{"value":100,"unit":1},"height":{"value":1,"unit":1}}},
+        {"type":"UIVisual","data":{"visualType":1,"color":{"r":0.49411764705882355,"g":0.807843137254902,"b":0.6745098039215687,"a":1}}}
+      ],
+      "visible": true
+    },
+    {
+      "prefabEntityId": "3", "name": "PauseTitle",
+      "parent": "1", "children": [],
+      "components": [
+        {"type":"Transform","data":{}},
+        {"type":"UINode","data":{"position":1,"insetLeft":{"value":8,"unit":1},"insetTop":{"value":7,"unit":1},"width":{"value":84,"unit":1},"height":{"value":14,"unit":1}}},
+        {"type":"Text","data":{"content":"已暂停","fontSize":35,"color":{"r":0.9098039215686274,"g":0.9450980392156862,"b":0.9254901960784314,"a":1},"align":0,"verticalAlign":1,"bold":true}}
+      ],
+      "visible": true
+    },
+    {
+      "prefabEntityId": "4", "name": "Resume",
+      "parent": "1", "children": [],
+      "components": [
+        {"type":"Transform","data":{}},
+        {"type":"UINode","data":{"position":1,"insetLeft":{"value":8,"unit":1},"insetTop":{"value":30,"unit":1},"width":{"value":84,"unit":1},"height":{"value":13,"unit":1}}},
+        {"type":"UIVisual","data":{"visualType":1,"color":{"r":0.20392156862745098,"g":0.4235294117647059,"b":0.3803921568627451,"a":1}}},
+        {"type":"Interactable","data":{"enabled":true}},
+        {"type":"UIInteraction","data":{}},
+        {"type":"Focusable","data":{"tabIndex":0}},
+        {"type":"Text","data":{"content":"继续","fontSize":19,"color":{"r":0.9098039215686274,"g":0.9450980392156862,"b":0.9254901960784314,"a":1},"align":1,"verticalAlign":1,"bold":false}}
+      ],
+      "visible": true
+    },
+    {
+      "prefabEntityId": "5", "name": "PauseSettings",
+      "parent": "1", "children": [],
+      "components": [
+        {"type":"Transform","data":{}},
+        {"type":"UINode","data":{"position":1,"insetLeft":{"value":8,"unit":1},"insetTop":{"value":47,"unit":1},"width":{"value":84,"unit":1},"height":{"value":13,"unit":1}}},
+        {"type":"UIVisual","data":{"visualType":1,"color":{"r":0.16470588235294117,"g":0.25098039215686274,"b":0.2901960784313726,"a":1}}},
+        {"type":"Interactable","data":{"enabled":true}},
+        {"type":"UIInteraction","data":{}},
+        {"type":"Focusable","data":{"tabIndex":0}},
+        {"type":"Text","data":{"content":"设置","fontSize":19,"color":{"r":0.9098039215686274,"g":0.9450980392156862,"b":0.9254901960784314,"a":1},"align":1,"verticalAlign":1,"bold":false}}
+      ],
+      "visible": true
+    },
+    {
+      "prefabEntityId": "6", "name": "LeaveRoom",
+      "parent": "1", "children": [],
+      "components": [
+        {"type":"Transform","data":{}},
+        {"type":"UINode","data":{"position":1,"insetLeft":{"value":8,"unit":1},"insetTop":{"value":64,"unit":1},"width":{"value":84,"unit":1},"height":{"value":13,"unit":1}}},
+        {"type":"UIVisual","data":{"visualType":1,"color":{"r":0.16470588235294117,"g":0.25098039215686274,"b":0.2901960784313726,"a":1}}},
+        {"type":"Interactable","data":{"enabled":true}},
+        {"type":"UIInteraction","data":{}},
+        {"type":"Focusable","data":{"tabIndex":0}},
+        {"type":"Text","data":{"content":"返回主界面","fontSize":19,"color":{"r":0.9098039215686274,"g":0.9450980392156862,"b":0.9254901960784314,"a":1},"align":1,"verticalAlign":1,"bold":false}}
+      ],
+      "visible": true
+    }
+  ]
+}

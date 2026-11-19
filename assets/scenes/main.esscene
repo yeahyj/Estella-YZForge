@@ -1,0 +1,138 @@
+{
+  "version": 4,
+  "name": "Main",
+  "entities": [
+    {
+      "id": 0,
+      "name": "Camera",
+      "parent": null,
+      "children": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 10
+            }
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "projectionType": 1,
+            "orthoSize": 300,
+            "isActive": true,
+            "priority": 0
+          }
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": 1,
+      "name": "AppCanvas",
+      "parent": null,
+      "children": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {}
+        },
+        {
+          "type": "Canvas",
+          "data": {
+            "designResolution": {
+              "x": 800,
+              "y": 600
+            },
+            "pixelsPerUnit": 100,
+            "scaleMode": 1,
+            "matchWidthOrHeight": 0.5,
+            "backgroundColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "layer": 0
+          }
+        },
+        {
+          "type": "UINode",
+          "data": {
+            "position": 0,
+            "display": 0,
+            "opacity": 1,
+            "pointerEvents": 0,
+            "width": {
+              "value": 0,
+              "unit": 2
+            },
+            "height": {
+              "value": 0,
+              "unit": 2
+            },
+            "minWidth": {
+              "value": 0,
+              "unit": 2
+            },
+            "minHeight": {
+              "value": 0,
+              "unit": 2
+            },
+            "maxWidth": {
+              "value": 0,
+              "unit": 2
+            },
+            "maxHeight": {
+              "value": 0,
+              "unit": 2
+            },
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "flexBasis": {
+              "value": 0,
+              "unit": 2
+            },
+            "alignSelf": 0,
+            "marginLeft": {
+              "value": 0,
+              "unit": 0
+            },
+            "marginTop": {
+              "value": 0,
+              "unit": 0
+            },
+            "marginRight": {
+              "value": 0,
+              "unit": 0
+            },
+            "marginBottom": {
+              "value": 0,
+              "unit": 0
+            },
+            "insetLeft": {
+              "value": 0,
+              "unit": 2
+            },
+            "insetTop": {
+              "value": 0,
+              "unit": 2
+            },
+            "insetRight": {
+              "value": 0,
+              "unit": 2
+            },
+            "insetBottom": {
+              "value": 0,
+              "unit": 2
+            }
+          }
+        }
+      ],
+      "visible": true
+    }
+  ]
+}

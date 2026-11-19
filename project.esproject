@@ -1,0 +1,29 @@
+{
+  "formatVersion": "1",
+  "name": "Estella-YZForge",
+  "version": "0.1.0",
+  "defaultScene": "assets/scenes/main.esscene",
+  "spineVersion": "none",
+  "designResolution": {
+    "width": 800,
+    "height": 600
+  },
+  "description": "Modular Estella starter with navigation, settings and on-demand content.",
+  "tag": "Starter",
+  "features": {
+    "rendering": {
+      "colorSpace": "linear"
+    }
+  },
+  "tools": {
+    "luban": {
+      "enabled": true,
+      "conf": "config/luban/luban.conf",
+      "target": "client",
+      "codeTarget": "typescript-json",
+      "dataTarget": "json",
+      "codeDir": "src/gen",
+      "dataDir": "assets/data"
+    }
+  }
+}

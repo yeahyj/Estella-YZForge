@@ -1,0 +1,8 @@
+<module name="content">
+  <bean name="Experience">
+    <var name="id" type="string"/>
+    <var name="group" type="string"/>
+    <var name="prefab" type="string"/>
+  </bean>
+  <table name="Experiences" value="Experience" index="id" input="experiences.csv"/>
+</module>

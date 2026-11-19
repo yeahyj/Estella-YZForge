@@ -1,0 +1,18 @@
+{
+  "frames": 75,
+  "expect": [
+    {
+      "entity": "HomeTitle",
+      "component": "Text",
+      "field": "content",
+      "op": "exists",
+      "says": "The template opened its home page"
+    },
+    {
+      "entity": "AppCanvas",
+      "component": "Canvas",
+      "op": "exists",
+      "says": "The scene owns the UI canvas"
+    }
+  ]
+}
